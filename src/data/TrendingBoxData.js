@@ -1,33 +1,1243 @@
-export const trendingBoxData = () => {
+export default function trendingBoxData() {
   const data = [
     {
-      bgUrl:
-        "https://s3-alpha-sig.figma.com/img/e8eb/3bce/c766a697a30822ccba768b03c5125ead?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mgqSGtIXQ7yRG4uKOvZPz6V9IGTLF-tRcsjBgyFTw0E8SJdcCQrLT3LSfDKzWdtHzDVzZJdMzANRqwjkTUtekRFXZfl8MmCIk05rFrhKWcSqUC1Wj~h8YjxKErPNcqc~s0I6TuisFBaoFOzMVS-2d8b1-F3tJwwTFP6nS17vjmsrtFLxW4pupdWj5VAhdoY903Mz4RcyEzIbDWxU6-u-1rFPd9nvzWzso~NgIm5xQ00lfanW7uGYU~9YinB4wPH9HP9Pm0Jdkdl9He~yrl1d5ZcxCdwLZNoXlmaxSUvm6Z4tqUDw68y3fAOEnDSBV~J5VFncEocAaDmHVwHKLmW6NA__",
-      badge: "Technelogy",
+      type_of: "article",
+      id: 1751310,
       title:
-        "The Impact of Technology on the Workplace: How Technology is Changing",
+        "Simplifying Data Analysis With AI and DevTools - for the non-Python developer!",
+      description:
+        "As an app developer you've probably generated (or accessed) a lot of data, and wished you had expertise to analyze and visualize the results. But you're not a Python developer! How can you get productive quickly? In this @PyDataNYC 2023 talk, I show you 4 tools and a process to jumpstart your data science journey.",
+      readable_publish_date: "Feb 4",
+      slug: "simplifying-data-analysis-with-ai-and-devtools-for-the-non-python-developer-g94",
+      path: "/azure/simplifying-data-analysis-with-ai-and-devtools-for-the-non-python-developer-g94",
+      url: "https://dev.to/azure/simplifying-data-analysis-with-ai-and-devtools-for-the-non-python-developer-g94",
+      comments_count: 0,
+      public_reactions_count: 0,
+      collection_id: 25819,
+      published_timestamp: "2024-02-04T17:17:12Z",
+      positive_reactions_count: 0,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4and0vjp8li5c3in78bt.png",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4and0vjp8li5c3in78bt.png",
+      canonical_url:
+        "https://dev.to/azure/simplifying-data-analysis-with-ai-and-devtools-for-the-non-python-developer-g94",
+      created_at: "2024-02-04T13:40:37Z",
+      edited_at: "2024-02-04T17:17:20Z",
+      crossposted_at: null,
+      published_at: "2024-02-04T17:17:12Z",
+      last_comment_at: "2024-02-04T17:17:12Z",
+      reading_time_minutes: 6,
+      tag_list: ["python", "datascience", "beginners", "ai"],
+      tags: "python, datascience, beginners, ai",
+      user: {
+        name: "Nitya Narasimhan, Ph.D",
+        username: "nitya",
+        twitter_username: "nitya",
+        github_username: "nitya",
+        user_id: 8619,
+        website_url: "https://nitya.dev",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F8619%2F6cdad4c9-6dc7-4b27-85bd-7b58fdb527da.png",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F8619%2F6cdad4c9-6dc7-4b27-85bd-7b58fdb527da.png",
+      },
+      organization: {
+        name: "Microsoft Azure",
+        username: "azure",
+        slug: "azure",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F512%2F64ce0b82-730d-4ca0-8359-2c21513a0063.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F512%2F64ce0b82-730d-4ca0-8359-2c21513a0063.jpg",
+      },
     },
     {
-      bgUrl:
-        "https://s3-alpha-sig.figma.com/img/8d5b/3c3e/9c1f18bc8db1dc4de14eac308e1e1594?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PIqFTbIgboto~6gzB3cyBfrHDybH8kvBYYOWGST8-6L35yHU3rKuChUx6UB8YUnwjrRcg0CD5PsP6tr6U7~5psvhkLrTAh0h4Ml67VpJQhgUNboYY-3zFAlvSo~Re-8Z02lT-PfEPJ6NJtDiAF-7QWKr65yeT7lJzi80z45GNF99UzegEEHY3MUeme9liLoEEkRQN-g2jWIG8W2RPIfnfip-nvdaK8G-onEXhbeVclIfPhkXt987gRjpSrSINdF1LpGGmiVokx9b4GGMX807VPlOnA2NkrSE5NctmaALyfg8h9leV-5VRk-oT0BgXJLXJsmEL6RV4exIj~4MsHPDjQ__",
-      badge: "Technelogy",
-      title:
-        "The Impact of Technology on the Workplace: How Technology is Changing",
+      type_of: "article",
+      id: 1747502,
+      title: "#DEVResolutions2024: Wrapping Up a Month of Wins 🏆",
+      description:
+        "As we bid adieu to January, a heartfelt thank you resonates through the DEV Community! 🙌 Your...",
+      readable_publish_date: "Feb 1",
+      slug: "devresolutions2024-wrapping-up-a-month-of-wins-350d",
+      path: "/devteam/devresolutions2024-wrapping-up-a-month-of-wins-350d",
+      url: "https://dev.to/devteam/devresolutions2024-wrapping-up-a-month-of-wins-350d",
+      comments_count: 2,
+      public_reactions_count: 11,
+      collection_id: null,
+      published_timestamp: "2024-02-01T15:36:05Z",
+      positive_reactions_count: 11,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5w19upp1u6zr0d6m6g0d.jpg",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5w19upp1u6zr0d6m6g0d.jpg",
+      canonical_url:
+        "https://dev.to/devteam/devresolutions2024-wrapping-up-a-month-of-wins-350d",
+      created_at: "2024-01-31T18:13:43Z",
+      edited_at: "2024-02-01T15:36:42Z",
+      crossposted_at: null,
+      published_at: "2024-02-01T15:36:05Z",
+      last_comment_at: "2024-02-02T17:29:00Z",
+      reading_time_minutes: 2,
+      tag_list: ["devresolutions2024"],
+      tags: "devresolutions2024",
+      user: {
+        name: "dev.to staff",
+        username: "thepracticaldev",
+        twitter_username: "ThePracticalDev",
+        github_username: null,
+        user_id: 3,
+        website_url: "https://dev.to",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3%2F13d3b32a-d381-4549-b95e-ec665768ce8f.png",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3%2F13d3b32a-d381-4549-b95e-ec665768ce8f.png",
+      },
+      organization: {
+        name: "The DEV Team",
+        username: "devteam",
+        slug: "devteam",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+      },
     },
     {
-      bgUrl:
-        "https://s3-alpha-sig.figma.com/img/a7b0/86f2/c97b173ebc05fa8f9660788e8e0971b9?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UzmzNztxE8Th~DdFs7wwmAcLk3aWzv9Y2f8TERsbdhCEvPvB5vYwHSZ7b-cvEoebpPnh7UKCrzfW0AUWceDnWaIlmdHi5K3mPOBl-OdGgnDADsSvXYLV18N44CsCmqi6HYpGeUEQiLWnqK4N0GT7aAmch9kNLNUNAabC2a~FQYeSnPhhgICe6vpj3OMNtIbKmoT1UR4FRLvmgdnwQAUTot1N0qxfWm2pzJ8ZLWjLJ1wYg-vnVFM3BAZ1ppooc2TUiovSKowbmCuPPiaj1jgOrh7AbM89V~7iCg~umCbKIwCNFyJcHGx20iyaQU2FCtP~TTnci-s63CRQX4~wauiX~g__",
-      badge: "Technelogy",
-      title:
-        "The Impact of Technology on the Workplace: How Technology is Changing",
+      type_of: "article",
+      id: 1728586,
+      title: "What was your win this week?",
+      description:
+        "Hey my peeps! 👋  Hope everybody is doing well this Friday! 🥳  Looking back on this past week, what...",
+      readable_publish_date: "Feb 2",
+      slug: "what-was-your-win-this-week-cga",
+      path: "/devteam/what-was-your-win-this-week-cga",
+      url: "https://dev.to/devteam/what-was-your-win-this-week-cga",
+      comments_count: 51,
+      public_reactions_count: 24,
+      collection_id: null,
+      published_timestamp: "2024-02-02T11:00:00Z",
+      positive_reactions_count: 24,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4a9p16hwa372gwfnn235.jpg",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4a9p16hwa372gwfnn235.jpg",
+      canonical_url: "https://dev.to/devteam/what-was-your-win-this-week-cga",
+      created_at: "2024-01-15T22:07:24Z",
+      edited_at: "2024-01-17T17:35:14Z",
+      crossposted_at: null,
+      published_at: "2024-02-02T11:00:00Z",
+      last_comment_at: "2024-02-05T03:36:47Z",
+      reading_time_minutes: 1,
+      tag_list: ["discuss", "weeklyretro"],
+      tags: "discuss, weeklyretro",
+      user: {
+        name: "Michael Tharrington",
+        username: "michaeltharrington",
+        twitter_username: "MichaelMadcat",
+        github_username: "michael-tharrington",
+        user_id: 38578,
+        website_url: "https://dev.to/michaeltharrington",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F38578%2F05ce9c9d-43b7-4823-a423-f875a94edc27.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F38578%2F05ce9c9d-43b7-4823-a423-f875a94edc27.jpg",
+      },
+      organization: {
+        name: "The DEV Team",
+        username: "devteam",
+        slug: "devteam",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+      },
+      flare_tag: {
+        name: "discuss",
+        bg_color_hex: "#71EA8B",
+        text_color_hex: "#FFFFFF",
+      },
     },
     {
-      bgUrl:
-        "https://s3-alpha-sig.figma.com/img/21a4/f878/0943144e7126909a96868bd7542caf21?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V692oSYcTGmjo5jv9v0jBS29tiDZflVjPassxrT51fgF8~u1M2ZF~wK6RiEoKwJBgq8irg71qzmjTApolmucyuw2F9zUBEjwAzWqHTaDkYGczw8AFZplSmlmWq6t8HIZMGkR7Bp1OBHwI06RkOQAlJvlS293stVQXIbse5JzKyYsc9S22rou6WBeN4JU5ZhuLhUihn6CanPZPyjxgLEEROVPEGA~iVDD~mNPwb8X7koj-IKSG9GV6jSttThpmk8zoIIoDefBxvFuwvTXup6iLtIcyjAknf3hDrCIOFzEtPRQFW6k1Bq4~kP5XW9-w73baFjm0G1AK72k6q101Fb~3Q__",
-      badge: "Technelogy",
+      type_of: "article",
+      id: 1744036,
       title:
-        "The Impact of Technology on the Workplace: How Technology is Changing",
+        "What project new features or changes are you most excited about recently?",
+      description:
+        "What project updates have you been really excited about lately?  Is there something you’ve been...",
+      readable_publish_date: "Jan 28",
+      slug: "what-project-new-features-or-changes-are-you-most-excited-about-recently-3042",
+      path: "/bekahhw/what-project-new-features-or-changes-are-you-most-excited-about-recently-3042",
+      url: "https://dev.to/bekahhw/what-project-new-features-or-changes-are-you-most-excited-about-recently-3042",
+      comments_count: 1,
+      public_reactions_count: 3,
+      collection_id: null,
+      published_timestamp: "2024-01-28T21:56:18Z",
+      positive_reactions_count: 3,
+      cover_image: null,
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fx1y93dk427120wny2yar.png",
+      canonical_url:
+        "https://dev.to/bekahhw/what-project-new-features-or-changes-are-you-most-excited-about-recently-3042",
+      created_at: "2024-01-28T21:56:18Z",
+      edited_at: null,
+      crossposted_at: null,
+      published_at: "2024-01-28T21:56:18Z",
+      last_comment_at: "2024-01-29T16:31:55Z",
+      reading_time_minutes: 1,
+      tag_list: ["discuss"],
+      tags: "discuss",
+      user: {
+        name: "BekahHW",
+        username: "bekahhw",
+        twitter_username: "BekahHW",
+        github_username: "BekahHW",
+        user_id: 345658,
+        website_url: "https://bekahhw.com/",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F345658%2Fa72b6b8b-b954-47fb-8919-ab380905f26b.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F345658%2Fa72b6b8b-b954-47fb-8919-ab380905f26b.jpg",
+      },
+      flare_tag: {
+        name: "discuss",
+        bg_color_hex: "#71EA8B",
+        text_color_hex: "#FFFFFF",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1728581,
+      title: "What are you learning about this weekend? 🧠",
+      description:
+        "Hey y'all! 👋  Hope you're all enjoying your weekends. 🙌  Whether you're sharpening your JS skills,...",
+      readable_publish_date: "Feb 3",
+      slug: "what-are-you-learning-about-this-weekend-3b6",
+      path: "/devteam/what-are-you-learning-about-this-weekend-3b6",
+      url: "https://dev.to/devteam/what-are-you-learning-about-this-weekend-3b6",
+      comments_count: 17,
+      public_reactions_count: 5,
+      collection_id: null,
+      published_timestamp: "2024-02-03T14:00:00Z",
+      positive_reactions_count: 5,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fthxk1wz0pnted6ij469g.jpg",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fthxk1wz0pnted6ij469g.jpg",
+      canonical_url:
+        "https://dev.to/devteam/what-are-you-learning-about-this-weekend-3b6",
+      created_at: "2024-01-15T21:56:01Z",
+      edited_at: null,
+      crossposted_at: null,
+      published_at: "2024-02-03T14:00:00Z",
+      last_comment_at: "2024-02-05T09:39:54Z",
+      reading_time_minutes: 1,
+      tag_list: ["codenewbie", "learning", "beginners", "discuss"],
+      tags: "codenewbie, learning, beginners, discuss",
+      user: {
+        name: "Michael Tharrington",
+        username: "michaeltharrington",
+        twitter_username: "MichaelMadcat",
+        github_username: "michael-tharrington",
+        user_id: 38578,
+        website_url: "https://dev.to/michaeltharrington",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F38578%2F05ce9c9d-43b7-4823-a423-f875a94edc27.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F38578%2F05ce9c9d-43b7-4823-a423-f875a94edc27.jpg",
+      },
+      organization: {
+        name: "The DEV Team",
+        username: "devteam",
+        slug: "devteam",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+      },
+      flare_tag: {
+        name: "discuss",
+        bg_color_hex: "#71EA8B",
+        text_color_hex: "#FFFFFF",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1748550,
+      title: "AI Grant Traction in OSS Startups",
+      description:
+        "Last year Nat Friedman and Daniel Gross kicked off the AI Grant and have incubated 60 companies with...",
+      readable_publish_date: "Feb 2",
+      slug: "ai-grant-traction-in-oss-startups-20aa",
+      path: "/opensauced/ai-grant-traction-in-oss-startups-20aa",
+      url: "https://dev.to/opensauced/ai-grant-traction-in-oss-startups-20aa",
+      comments_count: 4,
+      public_reactions_count: 14,
+      collection_id: null,
+      published_timestamp: "2024-02-02T01:35:19Z",
+      positive_reactions_count: 14,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F67mkekvcomt1qrurwwi0.png",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F67mkekvcomt1qrurwwi0.png",
+      canonical_url:
+        "https://opensauced.pizza/blog/ai-secret-sauce-traction-in-open-source",
+      created_at: "2024-02-01T13:33:29Z",
+      edited_at: "2024-02-02T02:40:58Z",
+      crossposted_at: null,
+      published_at: "2024-02-02T01:35:19Z",
+      last_comment_at: "2024-02-03T05:10:59Z",
+      reading_time_minutes: 5,
+      tag_list: ["ai", "opensource"],
+      tags: "ai, opensource",
+      user: {
+        name: "Brian Douglas",
+        username: "bdougieyo",
+        twitter_username: "bdougieYO",
+        github_username: "bdougie",
+        user_id: 19970,
+        website_url: "https://opensauced.pizza",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F19970%2F6dc0f11e-a4da-4762-aed8-11f70143d31b.jpeg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F19970%2F6dc0f11e-a4da-4762-aed8-11f70143d31b.jpeg",
+      },
+      organization: {
+        name: "OpenSauced",
+        username: "opensauced",
+        slug: "opensauced",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2498%2Fa16cc27c-33f9-40b6-92a8-4a43f70a96ef.png",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2498%2Fa16cc27c-33f9-40b6-92a8-4a43f70a96ef.png",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1747303,
+      title: "How Do You Overcome Leadership Loneliness?",
+      description: "contributions from the community this past week",
+      readable_publish_date: "Jan 31",
+      slug: "how-do-you-overcome-leadership-loneliness-11jb",
+      path: "/devteam/how-do-you-overcome-leadership-loneliness-11jb",
+      url: "https://dev.to/devteam/how-do-you-overcome-leadership-loneliness-11jb",
+      comments_count: 6,
+      public_reactions_count: 12,
+      collection_id: null,
+      published_timestamp: "2024-01-31T14:56:05Z",
+      positive_reactions_count: 12,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ft56k5s0uyiyk7kbc94z0.png",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ft56k5s0uyiyk7kbc94z0.png",
+      canonical_url:
+        "https://dev.to/devteam/how-do-you-overcome-leadership-loneliness-11jb",
+      created_at: "2024-01-31T14:53:56Z",
+      edited_at: null,
+      crossposted_at: null,
+      published_at: "2024-01-31T14:56:05Z",
+      last_comment_at: "2024-02-01T13:17:46Z",
+      reading_time_minutes: 1,
+      tag_list: ["discuss"],
+      tags: "discuss",
+      user: {
+        name: "dev.to staff",
+        username: "thepracticaldev",
+        twitter_username: "ThePracticalDev",
+        github_username: null,
+        user_id: 3,
+        website_url: "https://dev.to",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3%2F13d3b32a-d381-4549-b95e-ec665768ce8f.png",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3%2F13d3b32a-d381-4549-b95e-ec665768ce8f.png",
+      },
+      organization: {
+        name: "The DEV Team",
+        username: "devteam",
+        slug: "devteam",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+      },
+      flare_tag: {
+        name: "discuss",
+        bg_color_hex: "#71EA8B",
+        text_color_hex: "#FFFFFF",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1749310,
+      title:
+        '"🌟 Friday Fun with Dev Community: Celebrating Coding Adventures! 🎉"',
+      description:
+        "👋 Hey dev community! It's Friday, which means it's time for some tech talk and celebration! 🎉 Here's...",
+      readable_publish_date: "Feb 2",
+      slug: "-friday-fun-with-dev-community-celebrating-coding-adventures--g7h",
+      path: "/madzimai/-friday-fun-with-dev-community-celebrating-coding-adventures--g7h",
+      url: "https://dev.to/madzimai/-friday-fun-with-dev-community-celebrating-coding-adventures--g7h",
+      comments_count: 0,
+      public_reactions_count: 5,
+      collection_id: null,
+      published_timestamp: "2024-02-02T08:08:31Z",
+      positive_reactions_count: 5,
+      cover_image: null,
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmbe6eg5bsfr4rrcsb95h.png",
+      canonical_url:
+        "https://dev.to/madzimai/-friday-fun-with-dev-community-celebrating-coding-adventures--g7h",
+      created_at: "2024-02-02T08:08:31Z",
+      edited_at: null,
+      crossposted_at: null,
+      published_at: "2024-02-02T08:08:31Z",
+      last_comment_at: "2024-02-02T08:08:31Z",
+      reading_time_minutes: 2,
+      tag_list: ["discuss", "beginners", "developers"],
+      tags: "discuss, beginners, developers",
+      user: {
+        name: "Netsai",
+        username: "madzimai",
+        twitter_username: null,
+        github_username: "madzimai",
+        user_id: 410449,
+        website_url: null,
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F410449%2F817fbefd-1d54-41fd-82df-93859db3da16.png",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F410449%2F817fbefd-1d54-41fd-82df-93859db3da16.png",
+      },
+      flare_tag: {
+        name: "discuss",
+        bg_color_hex: "#71EA8B",
+        text_color_hex: "#FFFFFF",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1747685,
+      title: 'From Punch Cards to the "Modern Data Stack"',
+      description:
+        'A journey from the origins of computing and data analytics to what we now call the "Modern Data...',
+      readable_publish_date: "Jan 31",
+      slug: "from-punch-cards-to-the-modern-data-stack-f0l",
+      path: "/benscholtz/from-punch-cards-to-the-modern-data-stack-f0l",
+      url: "https://dev.to/benscholtz/from-punch-cards-to-the-modern-data-stack-f0l",
+      comments_count: 0,
+      public_reactions_count: 4,
+      collection_id: null,
+      published_timestamp: "2024-01-31T21:35:07Z",
+      positive_reactions_count: 4,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frqq7drx1ee9ks4bdcdjs.png",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frqq7drx1ee9ks4bdcdjs.png",
+      canonical_url:
+        "https://systemsexplained.com/from-punch-cards-to-the-modern-data-stack",
+      created_at: "2024-01-31T21:35:07Z",
+      edited_at: null,
+      crossposted_at: null,
+      published_at: "2024-01-31T21:35:07Z",
+      last_comment_at: "2024-01-31T21:35:07Z",
+      reading_time_minutes: 3,
+      tag_list: ["datascience", "analytics"],
+      tags: "datascience, analytics",
+      user: {
+        name: "Benjamin Scholtz",
+        username: "benscholtz",
+        twitter_username: null,
+        github_username: "BenSchZA",
+        user_id: 1270544,
+        website_url: null,
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1270544%2F9c038e30-7520-4a49-a28f-e5c4a3df7f88.jpeg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1270544%2F9c038e30-7520-4a49-a28f-e5c4a3df7f88.jpeg",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1745732,
+      title: "Enabling children in disastrous regions through technology",
+      description:
+        "I was born in a culture that promotes humble behavior and values selflessness and altruism in human...",
+      readable_publish_date: "Jan 30",
+      slug: "enabling-children-in-disastrous-regions-through-technology-3209",
+      path: "/a0m0rajab/enabling-children-in-disastrous-regions-through-technology-3209",
+      url: "https://dev.to/a0m0rajab/enabling-children-in-disastrous-regions-through-technology-3209",
+      comments_count: 0,
+      public_reactions_count: 12,
+      collection_id: null,
+      published_timestamp: "2024-01-30T18:20:09Z",
+      positive_reactions_count: 12,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ff2u71inehex7ckgtqa38.jpeg",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ff2u71inehex7ckgtqa38.jpeg",
+      canonical_url:
+        "https://dev.to/a0m0rajab/enabling-children-in-disastrous-regions-through-technology-3209",
+      created_at: "2024-01-30T09:38:28Z",
+      edited_at: null,
+      crossposted_at: null,
+      published_at: "2024-01-30T18:20:09Z",
+      last_comment_at: "2024-01-30T18:20:09Z",
+      reading_time_minutes: 7,
+      tag_list: ["learning", "coding", "community", "career"],
+      tags: "learning, coding, community, career",
+      user: {
+        name: "Abdurrahman Rajab",
+        username: "a0m0rajab",
+        twitter_username: null,
+        github_username: "a0m0rajab",
+        user_id: 500476,
+        website_url: "https://www.abdurrahmanrajab.com/",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F500476%2F5c7417cb-b8fd-4388-9f59-faed77cb21ce.jpeg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F500476%2F5c7417cb-b8fd-4388-9f59-faed77cb21ce.jpeg",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1746551,
+      title: "DevRel Discussions",
+      description:
+        "A theme I've noticed in DevRel is the discussion about what kind of role AI will play in the practice...",
+      readable_publish_date: "Jan 31",
+      slug: "devrel-discussions-aef",
+      path: "/lizzzzz/devrel-discussions-aef",
+      url: "https://dev.to/lizzzzz/devrel-discussions-aef",
+      comments_count: 1,
+      public_reactions_count: 2,
+      collection_id: null,
+      published_timestamp: "2024-01-31T00:41:05Z",
+      positive_reactions_count: 2,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foas6h7nkhv6obsiidio5.png",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foas6h7nkhv6obsiidio5.png",
+      canonical_url: "https://dev.to/lizzzzz/devrel-discussions-aef",
+      created_at: "2024-01-31T00:36:36Z",
+      edited_at: "2024-01-31T16:06:47Z",
+      crossposted_at: null,
+      published_at: "2024-01-31T00:41:05Z",
+      last_comment_at: "2024-01-31T16:10:33Z",
+      reading_time_minutes: 1,
+      tag_list: ["devrel", "ai", "discuss"],
+      tags: "devrel, ai, discuss",
+      user: {
+        name: "Liz Acosta",
+        username: "lizzzzz",
+        twitter_username: null,
+        github_username: "liz-acosta",
+        user_id: 520299,
+        website_url: "https://liz-acosta.com/",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F520299%2F38de40f4-43b2-4a0d-a7cc-2fa6494ac4b3.png",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F520299%2F38de40f4-43b2-4a0d-a7cc-2fa6494ac4b3.png",
+      },
+      flare_tag: {
+        name: "discuss",
+        bg_color_hex: "#71EA8B",
+        text_color_hex: "#FFFFFF",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1717647,
+      title: "Caption This! 🤔💭",
+      description:
+        "Ready to unleash your inner wordsmith? We need your wit to crack the code behind this picture-perfect...",
+      readable_publish_date: "Jan 29",
+      slug: "caption-this-ol6",
+      path: "/devteam/caption-this-ol6",
+      url: "https://dev.to/devteam/caption-this-ol6",
+      comments_count: 14,
+      public_reactions_count: 5,
+      collection_id: null,
+      published_timestamp: "2024-01-29T00:00:00Z",
+      positive_reactions_count: 5,
+      cover_image: null,
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc6u82e3ctsuhd7m1t1a6.png",
+      canonical_url: "https://dev.to/devteam/caption-this-ol6",
+      created_at: "2024-01-05T00:49:37Z",
+      edited_at: null,
+      crossposted_at: null,
+      published_at: "2024-01-29T00:00:00Z",
+      last_comment_at: "2024-01-30T14:20:51Z",
+      reading_time_minutes: 1,
+      tag_list: ["watercooler"],
+      tags: "watercooler",
+      user: {
+        name: "dev.to staff",
+        username: "thepracticaldev",
+        twitter_username: "ThePracticalDev",
+        github_username: null,
+        user_id: 3,
+        website_url: "https://dev.to",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3%2F13d3b32a-d381-4549-b95e-ec665768ce8f.png",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3%2F13d3b32a-d381-4549-b95e-ec665768ce8f.png",
+      },
+      organization: {
+        name: "The DEV Team",
+        username: "devteam",
+        slug: "devteam",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+      },
+      flare_tag: {
+        name: "watercooler",
+        bg_color_hex: "#D0ECFF",
+        text_color_hex: "#130074",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1742510,
+      title: "Solving the CIA Kryptos Code (Part 1)",
+      description:
+        "You can find all the code for this series on GitHub.  On the campus of CIA headquarters in Virginia,...",
+      readable_publish_date: "Jan 26",
+      slug: "solving-the-cia-kryptos-code-part-1-131e",
+      path: "/isaacdlyman/solving-the-cia-kryptos-code-part-1-131e",
+      url: "https://dev.to/isaacdlyman/solving-the-cia-kryptos-code-part-1-131e",
+      comments_count: 0,
+      public_reactions_count: 7,
+      collection_id: 26199,
+      published_timestamp: "2024-01-26T22:52:00Z",
+      positive_reactions_count: 7,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8uqzn666fv3ue94f2kie.jpg",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8uqzn666fv3ue94f2kie.jpg",
+      canonical_url: "https://isaaclyman.com/blog/posts/kryptos-1/",
+      created_at: "2024-01-26T22:57:06Z",
+      edited_at: "2024-01-28T20:44:56Z",
+      crossposted_at: null,
+      published_at: "2024-01-26T22:52:00Z",
+      last_comment_at: "2024-01-26T22:52:00Z",
+      reading_time_minutes: 7,
+      tag_list: ["cryptography", "cryptanalysis", "typescript"],
+      tags: "cryptography, cryptanalysis, typescript",
+      user: {
+        name: "Isaac Lyman",
+        username: "isaacdlyman",
+        twitter_username: null,
+        github_username: "isaaclyman",
+        user_id: 572,
+        website_url: "http://isaaclyman.com",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F572%2Fdb44b500-c4c1-4300-b0bd-f9fdc0f0d977.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F572%2Fdb44b500-c4c1-4300-b0bd-f9fdc0f0d977.jpg",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1745114,
+      title: "Top 7 Featured DEV Posts of the Week",
+      description:
+        "A round up of the most-read and most-loved contributions from the community this past week",
+      readable_publish_date: "Jan 29",
+      slug: "top-7-featured-dev-posts-of-the-week-3jad",
+      path: "/devteam/top-7-featured-dev-posts-of-the-week-3jad",
+      url: "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-3jad",
+      comments_count: 9,
+      public_reactions_count: 44,
+      collection_id: null,
+      published_timestamp: "2024-01-29T19:01:13Z",
+      positive_reactions_count: 44,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fizn8hfzc0bhki5h4cu15.jpg",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fizn8hfzc0bhki5h4cu15.jpg",
+      canonical_url:
+        "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-3jad",
+      created_at: "2024-01-29T18:56:51Z",
+      edited_at: "2024-01-30T14:59:43Z",
+      crossposted_at: null,
+      published_at: "2024-01-29T19:01:13Z",
+      last_comment_at: "2024-02-02T04:22:58Z",
+      reading_time_minutes: 3,
+      tag_list: ["top7"],
+      tags: "top7",
+      user: {
+        name: "Erin A Olinick",
+        username: "erinao",
+        twitter_username: null,
+        github_username: null,
+        user_id: 1007771,
+        website_url: null,
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1007771%2F7eec867a-5222-4c5f-8605-bf021dc997b8.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1007771%2F7eec867a-5222-4c5f-8605-bf021dc997b8.jpg",
+      },
+      organization: {
+        name: "The DEV Team",
+        username: "devteam",
+        slug: "devteam",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1747320,
+      title: "10 Organizations to Support for Black History Month",
+      description:
+        "Hey y'all!  In February, DEV observes Black History Month, celebrating the contributions of the Black...",
+      readable_publish_date: "Feb 1",
+      slug: "10-organizations-to-support-for-black-history-month-2op0",
+      path: "/devteam/10-organizations-to-support-for-black-history-month-2op0",
+      url: "https://dev.to/devteam/10-organizations-to-support-for-black-history-month-2op0",
+      comments_count: 1,
+      public_reactions_count: 28,
+      collection_id: null,
+      published_timestamp: "2024-02-01T15:15:11Z",
+      positive_reactions_count: 28,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu7chu01kz10ylwub0we2.png",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu7chu01kz10ylwub0we2.png",
+      canonical_url:
+        "https://dev.to/devteam/10-organizations-to-support-for-black-history-month-2op0",
+      created_at: "2024-01-31T15:17:38Z",
+      edited_at: "2024-02-01T19:06:44Z",
+      crossposted_at: null,
+      published_at: "2024-02-01T15:15:11Z",
+      last_comment_at: "2024-02-04T12:34:56Z",
+      reading_time_minutes: 3,
+      tag_list: ["blacklivesmatter"],
+      tags: "blacklivesmatter",
+      user: {
+        name: "dev.to staff",
+        username: "thepracticaldev",
+        twitter_username: "ThePracticalDev",
+        github_username: null,
+        user_id: 3,
+        website_url: "https://dev.to",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3%2F13d3b32a-d381-4549-b95e-ec665768ce8f.png",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3%2F13d3b32a-d381-4549-b95e-ec665768ce8f.png",
+      },
+      organization: {
+        name: "The DEV Team",
+        username: "devteam",
+        slug: "devteam",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1747992,
+      title: "Font Size Considerations for Accessibility",
+      description:
+        "Discussions about accessibility, especially in software development, often center around screen...",
+      readable_publish_date: "Feb 2",
+      slug: "font-size-considerations-for-accessibility-p5a",
+      path: "/eevajonnapanula/font-size-considerations-for-accessibility-p5a",
+      url: "https://dev.to/eevajonnapanula/font-size-considerations-for-accessibility-p5a",
+      comments_count: 3,
+      public_reactions_count: 27,
+      collection_id: null,
+      published_timestamp: "2024-02-02T09:53:00Z",
+      positive_reactions_count: 27,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fglctjdhc34033pau50f6.png",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fglctjdhc34033pau50f6.png",
+      canonical_url:
+        "https://eevis.codes/blog/2024-02-02/font-size-considerations-for-accessibility/",
+      created_at: "2024-02-01T05:16:50Z",
+      edited_at: "2024-02-02T03:49:37Z",
+      crossposted_at: null,
+      published_at: "2024-02-02T09:53:00Z",
+      last_comment_at: "2024-02-03T15:08:09Z",
+      reading_time_minutes: 6,
+      tag_list: ["a11y", "android", "mobile", "programming"],
+      tags: "a11y, android, mobile, programming",
+      user: {
+        name: "Eevis",
+        username: "eevajonnapanula",
+        twitter_username: null,
+        github_username: "eevajonnapanula",
+        user_id: 201004,
+        website_url: "https://eevis.codes",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F201004%2Ff567403b-648c-4922-996e-a95132d48cbe.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F201004%2Ff567403b-648c-4922-996e-a95132d48cbe.jpg",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1749842,
+      title: "Make Invalid States Unrepresentable",
+      description:
+        "Suppose you have a Person class in your program, and that a Person has an age. What type should the...",
+      readable_publish_date: "Feb 2",
+      slug: "make-invalid-states-unrepresentable-40np",
+      path: "/awwsmm/make-invalid-states-unrepresentable-40np",
+      url: "https://dev.to/awwsmm/make-invalid-states-unrepresentable-40np",
+      comments_count: 2,
+      public_reactions_count: 12,
+      collection_id: null,
+      published_timestamp: "2024-02-02T17:07:17Z",
+      positive_reactions_count: 12,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0ojao1kjg1132rait4t7.jpg",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0ojao1kjg1132rait4t7.jpg",
+      canonical_url:
+        "https://www.awwsmm.com/blog/make-invalid-states-unrepresentable",
+      created_at: "2024-02-02T17:07:19Z",
+      edited_at: null,
+      crossposted_at: null,
+      published_at: "2024-02-02T17:07:17Z",
+      last_comment_at: "2024-02-03T03:16:20Z",
+      reading_time_minutes: 8,
+      tag_list: ["scala", "programming", "discuss", "architecture"],
+      tags: "scala, programming, discuss, architecture",
+      user: {
+        name: "Andrew (he/him)",
+        username: "awwsmm",
+        twitter_username: null,
+        github_username: "awwsmm",
+        user_id: 101393,
+        website_url: "https://www.awwsmm.com/",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F101393%2F56bf0c89-b8ca-4157-9c3b-79031045a21f.png",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F101393%2F56bf0c89-b8ca-4157-9c3b-79031045a21f.png",
+      },
+      flare_tag: {
+        name: "discuss",
+        bg_color_hex: "#71EA8B",
+        text_color_hex: "#FFFFFF",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1749781,
+      title: "Refining Your Code Craft: A Journey Through 'Five Lines of Code'",
+      description:
+        "Explore Christian Clausen's \"Five Lines of Code,\" a transformative guide to refactoring that challenges traditional coding practices. Embrace the disciplined approach outlined through Clausen's ten key rules for writing concise, readable, and maintainable code. Focus on simplicity, clear abstraction, and thoughtful naming to elevate code quality. Commit to continuous improvement and refine your craft, making your code not just functional, but truly exceptional.",
+      readable_publish_date: "Feb 2",
+      slug: "refining-your-code-craft-a-journey-through-five-lines-of-code-4l9f",
+      path: "/dev3l/refining-your-code-craft-a-journey-through-five-lines-of-code-4l9f",
+      url: "https://dev.to/dev3l/refining-your-code-craft-a-journey-through-five-lines-of-code-4l9f",
+      comments_count: 0,
+      public_reactions_count: 11,
+      collection_id: null,
+      published_timestamp: "2024-02-02T16:39:03Z",
+      positive_reactions_count: 11,
+      cover_image:
+        "https://res.cloudinary.com/practicaldev/image/fetch/s--g1vdxIVO--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://i.ibb.co/0QtJbXL/qrqmm-Vzxb-DObdw17u-C51-4-44588.jpg",
+      social_image:
+        "https://res.cloudinary.com/practicaldev/image/fetch/s--uyPuQTJA--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://i.ibb.co/0QtJbXL/qrqmm-Vzxb-DObdw17u-C51-4-44588.jpg",
+      canonical_url:
+        "https://dev.to/dev3l/refining-your-code-craft-a-journey-through-five-lines-of-code-4l9f",
+      created_at: "2024-02-02T16:17:46Z",
+      edited_at: null,
+      crossposted_at: null,
+      published_at: "2024-02-02T16:39:03Z",
+      last_comment_at: "2024-02-02T16:39:03Z",
+      reading_time_minutes: 5,
+      tag_list: [],
+      tags: "",
+      user: {
+        name: "Justin L Beall",
+        username: "dev3l",
+        twitter_username: "dev3l_",
+        github_username: "DEV3L",
+        user_id: 20193,
+        website_url: null,
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F20193%2F5aab7437-180a-470e-88f2-26503b1b28ee.png",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F20193%2F5aab7437-180a-470e-88f2-26503b1b28ee.png",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1747173,
+      title: "UI for K8s - 👍🏻 / 👎🏻 ?",
+      description:
+        "Hi everyone 👋🏻  What are your thoughts on a UI for K8s, and what are your experiences with such...",
+      readable_publish_date: "Jan 31",
+      slug: "ui-for-k8s--3eoj",
+      path: "/cyclops-ui/ui-for-k8s--3eoj",
+      url: "https://dev.to/cyclops-ui/ui-for-k8s--3eoj",
+      comments_count: 14,
+      public_reactions_count: 25,
+      collection_id: null,
+      published_timestamp: "2024-01-31T12:29:29Z",
+      positive_reactions_count: 25,
+      cover_image: null,
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpy6epne155qi9rn6xqq0.png",
+      canonical_url: "https://dev.to/cyclops-ui/ui-for-k8s--3eoj",
+      created_at: "2024-01-31T12:29:30Z",
+      edited_at: null,
+      crossposted_at: null,
+      published_at: "2024-01-31T12:29:29Z",
+      last_comment_at: "2024-02-02T14:41:08Z",
+      reading_time_minutes: 1,
+      tag_list: ["discuss", "kubernetes"],
+      tags: "discuss, kubernetes",
+      user: {
+        name: "Juraj",
+        username: "karadza",
+        twitter_username: null,
+        github_username: null,
+        user_id: 1218189,
+        website_url: null,
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1218189%2F97542f79-819b-4ecb-91e5-eff8c4e8ab82.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1218189%2F97542f79-819b-4ecb-91e5-eff8c4e8ab82.jpg",
+      },
+      organization: {
+        name: "Cyclops UI",
+        username: "cyclops-ui",
+        slug: "cyclops-ui",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F7917%2F676427c4-990f-4e32-85cb-27c4767b311d.jpeg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F7917%2F676427c4-990f-4e32-85cb-27c4767b311d.jpeg",
+      },
+      flare_tag: {
+        name: "discuss",
+        bg_color_hex: "#71EA8B",
+        text_color_hex: "#FFFFFF",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1738168,
+      title:
+        "Creating a Word Art text-curving design picker in only 30 lines of pure HTML web component code + 1 extra file (no node or JS!)",
+      description:
+        "Hey all -- as I'm back to Modulo.js tutorial writing, I am always looking for more content ideas....",
+      readable_publish_date: "Jan 22",
+      slug: "creating-a-word-art-text-curving-design-picke-in-only-30-lines-of-pure-html-web-component-code-1-extra-file-no-node-or-js-4ei7",
+      path: "/michaelpb/creating-a-word-art-text-curving-design-picke-in-only-30-lines-of-pure-html-web-component-code-1-extra-file-no-node-or-js-4ei7",
+      url: "https://dev.to/michaelpb/creating-a-word-art-text-curving-design-picke-in-only-30-lines-of-pure-html-web-component-code-1-extra-file-no-node-or-js-4ei7",
+      comments_count: 2,
+      public_reactions_count: 3,
+      collection_id: null,
+      published_timestamp: "2024-01-22T19:58:41Z",
+      positive_reactions_count: 3,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fre8smvn793lg6vanqvgz.gif",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fre8smvn793lg6vanqvgz.gif",
+      canonical_url:
+        "https://dev.to/michaelpb/creating-a-word-art-text-curving-design-picke-in-only-30-lines-of-pure-html-web-component-code-1-extra-file-no-node-or-js-4ei7",
+      created_at: "2024-01-22T19:58:41Z",
+      edited_at: "2024-01-24T00:55:32Z",
+      crossposted_at: null,
+      published_at: "2024-01-22T19:58:41Z",
+      last_comment_at: "2024-01-24T15:22:12Z",
+      reading_time_minutes: 5,
+      tag_list: ["webdev", "javascript", "programming", "tutorial"],
+      tags: "webdev, javascript, programming, tutorial",
+      user: {
+        name: "michaelb",
+        username: "michaelpb",
+        twitter_username: null,
+        github_username: "michaelpb",
+        user_id: 1161608,
+        website_url: null,
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1161608%2F359af9c1-5ee1-4c2b-b61b-72c731a45739.png",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1161608%2F359af9c1-5ee1-4c2b-b61b-72c731a45739.png",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1750515,
+      title: "Git Good: Best Practices for Branch Naming and Commit Messages",
+      description:
+        "Hello devs, I'm going to share a few best practices for using Git more effectively. git? Yes, the git...",
+      readable_publish_date: "Feb 3",
+      slug: "git-good-best-practices-for-branch-naming-and-commit-messages-oj4",
+      path: "/shinjithdev/git-good-best-practices-for-branch-naming-and-commit-messages-oj4",
+      url: "https://dev.to/shinjithdev/git-good-best-practices-for-branch-naming-and-commit-messages-oj4",
+      comments_count: 18,
+      public_reactions_count: 84,
+      collection_id: null,
+      published_timestamp: "2024-02-03T10:08:40Z",
+      positive_reactions_count: 84,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsmvlw63q0m91pn1pf1cq.jpg",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsmvlw63q0m91pn1pf1cq.jpg",
+      canonical_url:
+        "https://dev.to/shinjithdev/git-good-best-practices-for-branch-naming-and-commit-messages-oj4",
+      created_at: "2024-02-03T10:08:40Z",
+      edited_at: "2024-02-03T21:05:01Z",
+      crossposted_at: null,
+      published_at: "2024-02-03T10:08:40Z",
+      last_comment_at: "2024-02-05T06:47:47Z",
+      reading_time_minutes: 4,
+      tag_list: ["git", "github", "gitlab", "beginners"],
+      tags: "git, github, gitlab, beginners",
+      user: {
+        name: "shinjith",
+        username: "shinjithdev",
+        twitter_username: null,
+        github_username: "shinjith-dev",
+        user_id: 801847,
+        website_url: "https://shinjith.dev",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F801847%2F7e13901c-7197-453d-bfb3-5258e2d92182.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F801847%2F7e13901c-7197-453d-bfb3-5258e2d92182.jpg",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1745973,
+      title: "Is generated code harder to maintain?",
+      description:
+        "Code quality and maintainability   I found an interesting article about code quality and...",
+      readable_publish_date: "Jan 30",
+      slug: "is-generated-code-harder-to-maintain-1n1n",
+      path: "/volkmarr/is-generated-code-harder-to-maintain-1n1n",
+      url: "https://dev.to/volkmarr/is-generated-code-harder-to-maintain-1n1n",
+      comments_count: 7,
+      public_reactions_count: 5,
+      collection_id: null,
+      published_timestamp: "2024-01-30T11:26:48Z",
+      positive_reactions_count: 5,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fij8vgu1nghkc121l01jy.jpg",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fij8vgu1nghkc121l01jy.jpg",
+      canonical_url:
+        "https://dev.to/volkmarr/is-generated-code-harder-to-maintain-1n1n",
+      created_at: "2024-01-30T11:26:48Z",
+      edited_at: null,
+      crossposted_at: null,
+      published_at: "2024-01-30T11:26:48Z",
+      last_comment_at: "2024-02-01T20:56:48Z",
+      reading_time_minutes: 1,
+      tag_list: ["ai", "githubcopilot", "productivity", "discuss"],
+      tags: "ai, githubcopilot, productivity, discuss",
+      user: {
+        name: "Volkmar Rigo",
+        username: "volkmarr",
+        twitter_username: null,
+        github_username: "VolkmarR",
+        user_id: 177727,
+        website_url: null,
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F177727%2Fa1cc6119-4ee8-47a8-82a1-c7e665c720d2.png",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F177727%2Fa1cc6119-4ee8-47a8-82a1-c7e665c720d2.png",
+      },
+      flare_tag: {
+        name: "discuss",
+        bg_color_hex: "#71EA8B",
+        text_color_hex: "#FFFFFF",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1747221,
+      title: "Is AI replacing UI?",
+      description:
+        "Our strategy bet is that UI is obsolete, and that AI and natural language interfaces are rug pulling...",
+      readable_publish_date: "Jan 31",
+      slug: "is-ai-replacing-ui-31fl",
+      path: "/polterguy/is-ai-replacing-ui-31fl",
+      url: "https://dev.to/polterguy/is-ai-replacing-ui-31fl",
+      comments_count: 1,
+      public_reactions_count: 2,
+      collection_id: null,
+      published_timestamp: "2024-01-31T13:37:21Z",
+      positive_reactions_count: 2,
+      cover_image: null,
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6yn0twm09fezls8e3mps.png",
+      canonical_url: "https://dev.to/polterguy/is-ai-replacing-ui-31fl",
+      created_at: "2024-01-31T13:37:23Z",
+      edited_at: null,
+      crossposted_at: null,
+      published_at: "2024-01-31T13:37:21Z",
+      last_comment_at: "2024-01-31T19:19:28Z",
+      reading_time_minutes: 1,
+      tag_list: ["discuss"],
+      tags: "discuss",
+      user: {
+        name: "Thomas Hansen",
+        username: "polterguy",
+        twitter_username: null,
+        github_username: "polterguy",
+        user_id: 829923,
+        website_url: "https://ainiro.io",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F829923%2F04782b3f-244f-42af-a2bb-cd3277828def.png",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F829923%2F04782b3f-244f-42af-a2bb-cd3277828def.png",
+      },
+      flare_tag: {
+        name: "discuss",
+        bg_color_hex: "#71EA8B",
+        text_color_hex: "#FFFFFF",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1746372,
+      title: "Scale from One to Millions of Users",
+      description:
+        "How to scale a Next.js application to millions of users without compromises.",
+      readable_publish_date: "Jan 30",
+      slug: "scale-from-one-to-millions-of-users-47i3",
+      path: "/vorillaz/scale-from-one-to-millions-of-users-47i3",
+      url: "https://dev.to/vorillaz/scale-from-one-to-millions-of-users-47i3",
+      comments_count: 0,
+      public_reactions_count: 0,
+      collection_id: null,
+      published_timestamp: "2024-01-30T19:24:12Z",
+      positive_reactions_count: 0,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fx63tmsghxu4q9u1t5z49.jpeg",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fx63tmsghxu4q9u1t5z49.jpeg",
+      canonical_url:
+        "https://dev.to/vorillaz/scale-from-one-to-millions-of-users-47i3",
+      created_at: "2024-01-30T19:23:44Z",
+      edited_at: null,
+      crossposted_at: null,
+      published_at: "2024-01-30T19:24:12Z",
+      last_comment_at: "2024-01-30T19:24:12Z",
+      reading_time_minutes: 7,
+      tag_list: ["docker", "javascript", "devops"],
+      tags: "docker, javascript, devops",
+      user: {
+        name: "vorillaz",
+        username: "vorillaz",
+        twitter_username: "vorillaz",
+        github_username: "vorillaz",
+        user_id: 129735,
+        website_url: "https://vorillaz.com",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F129735%2F6fb82ca0-c0e5-417f-8cf9-2e2109360a40.jpg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F129735%2F6fb82ca0-c0e5-417f-8cf9-2e2109360a40.jpg",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1744410,
+      title: "Validating a mobile app idea",
+      description:
+        "An mobile quiz app to up-skill on software engineering skills other than coding.  Will it be...",
+      readable_publish_date: "Jan 29",
+      slug: "validating-a-mobile-app-idea-4i9p",
+      path: "/learnwithparam/validating-a-mobile-app-idea-4i9p",
+      url: "https://dev.to/learnwithparam/validating-a-mobile-app-idea-4i9p",
+      comments_count: 1,
+      public_reactions_count: 1,
+      collection_id: null,
+      published_timestamp: "2024-01-29T08:20:49Z",
+      positive_reactions_count: 1,
+      cover_image: null,
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqr30u50ls7d4iy1givub.png",
+      canonical_url:
+        "https://dev.to/learnwithparam/validating-a-mobile-app-idea-4i9p",
+      created_at: "2024-01-29T08:20:49Z",
+      edited_at: null,
+      crossposted_at: null,
+      published_at: "2024-01-29T08:20:49Z",
+      last_comment_at: "2024-01-31T18:19:04Z",
+      reading_time_minutes: 1,
+      tag_list: ["discuss", "webdev", "beginners", "learning"],
+      tags: "discuss, webdev, beginners, learning",
+      user: {
+        name: "Paramanantham Harrison",
+        username: "learnwithparam",
+        twitter_username: "learnwithparam",
+        github_username: "Param-Harrison",
+        user_id: 88511,
+        website_url: "https://learnwithparam.com",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F88511%2F8d37a0d4-33f0-41b6-b2ee-60256bbd2904.jpeg",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F88511%2F8d37a0d4-33f0-41b6-b2ee-60256bbd2904.jpeg",
+      },
+      flare_tag: {
+        name: "discuss",
+        bg_color_hex: "#71EA8B",
+        text_color_hex: "#FFFFFF",
+      },
+    },
+    {
+      type_of: "article",
+      id: 1733579,
+      title: "Still no internet? How to prevent premature timeouts in Ubuntu?",
+      description:
+        'I have contributed to open data by hunting "Funklöcher" ("radio holes", as network dead zones are...',
+      readable_publish_date: "Jan 18",
+      slug: "there-is-still-no-internet-how-to-prevent-premature-timeouts-on-ubuntu-5hdk",
+      path: "/ingosteinke/there-is-still-no-internet-how-to-prevent-premature-timeouts-on-ubuntu-5hdk",
+      url: "https://dev.to/ingosteinke/there-is-still-no-internet-how-to-prevent-premature-timeouts-on-ubuntu-5hdk",
+      comments_count: 0,
+      public_reactions_count: 4,
+      collection_id: null,
+      published_timestamp: "2024-01-18T14:43:11Z",
+      positive_reactions_count: 4,
+      cover_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgdcdyb2llxxlhi0u9o75.jpeg",
+      social_image:
+        "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgdcdyb2llxxlhi0u9o75.jpeg",
+      canonical_url:
+        "https://dev.to/ingosteinke/there-is-still-no-internet-how-to-prevent-premature-timeouts-on-ubuntu-5hdk",
+      created_at: "2024-01-18T10:02:59Z",
+      edited_at: "2024-01-19T19:01:45Z",
+      crossposted_at: null,
+      published_at: "2024-01-18T14:43:11Z",
+      last_comment_at: "2024-01-18T14:43:11Z",
+      reading_time_minutes: 3,
+      tag_list: ["linux", "networking", "discuss"],
+      tags: "linux, networking, discuss",
+      user: {
+        name: "Ingo Steinke",
+        username: "ingosteinke",
+        twitter_username: null,
+        github_username: "openmindculture",
+        user_id: 233697,
+        website_url: "https://www.ingo-steinke.com/",
+        profile_image:
+          "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F233697%2Fa99c74dd-6c7f-43fc-a778-e4299dc36238.png",
+        profile_image_90:
+          "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F233697%2Fa99c74dd-6c7f-43fc-a778-e4299dc36238.png",
+      },
+      flare_tag: {
+        name: "discuss",
+        bg_color_hex: "#71EA8B",
+        text_color_hex: "#FFFFFF",
+      },
     },
   ];
   return data;
-};
+}
