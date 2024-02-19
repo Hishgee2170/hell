@@ -4,7 +4,7 @@ export const MainPicture = ({ boxData }) => {
   console.log(boxData);
   return (
     <div>
-      <div className="  flex gap-[1px]">
+      <div className="flex gap-[1px] w-[1216px] overflow-x-scroll ">
         {boxData.map((el) => (
           <div
             key={el.id}
@@ -14,7 +14,7 @@ export const MainPicture = ({ boxData }) => {
               backgroundSize: "cover",
               height: "600px",
             }}
-            className="w-[1216px] h-[600px] rounded-[12px] relative"
+            className="w-[1216px] h-[600px] rounded-[12px] relative overflow-x-scroll"
           >
             <MainPictureTitle
               mainTit={el.title}

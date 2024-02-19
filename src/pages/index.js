@@ -1,3 +1,4 @@
+import TrendingBox from "@/components/blocks/TrendingBox";
 import { Header, MainPicture, Trending } from "@/components/containers/index";
 import trendingBoxData from "@/data/TrendingBoxData";
 export default function () {
