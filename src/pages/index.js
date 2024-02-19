@@ -1,5 +1,9 @@
-import TrendingBox from "@/components/blocks/TrendingBox";
-import { Header, MainPicture, Trending } from "@/components/containers/index";
+import {
+  Header,
+  MainPicture,
+  Trending,
+  AllBlogPost,
+} from "@/components/containers/index";
 import trendingBoxData from "@/data/TrendingBoxData";
 export default function () {
   const data = trendingBoxData();
@@ -8,6 +12,7 @@ export default function () {
       <Header />
       <MainPicture boxData={data} />
       <Trending />
+      <AllBlogPost />
     </div>
   );
 }
